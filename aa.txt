@@ -1,0 +1,26 @@
+https://api.weather.gov/alerts/active?area={state}
+
+
+
+41.66160819446823, -71.5029974370866
+
+https://api.weather.gov/gridpoints/TOP/41.66,-71.50/forecast
+
+
+https://dogapi.dog/api/v2/facts
+
+
+
+
+
+
+Node.js v20.17.0
+PS C:\Users\008019010\Desktop\CRUDAPPWebAPI> npx kill-port 3000
+Process on port 3000 killed
+PS C:\Users\008019010\Desktop\CRUDAPPWebAPI> node app.js       
+Server us running on port 3000
+Connected to mongodb database
+PS C:\Users\008019010\Desktop\CRUDAPPWebAPI> node app.js
+Server us running on port 3000
+Connected to mongodb database
+PS C:\Users\008019010\Desktop\CRUDAPPWebAPI> 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User Page</title>
+</head>
+<body>
+    <h1>Add User</h1>
+    <a href="index.html">back to list</a>
+    <br>
+    <form action="/addPerson" method="POST">
+
+        <label for="firstname">first name</label>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+        <label for="lastname">last name</label>
+        <input type="text" name="lastname" id="lastname">
+        <br>
+        <label for="email">email</label>
+        <input type="text" name="email" id="email">
+        <br>
+        <button type="submit">Add User</button>
+    </form>
+</body>
+</html>
